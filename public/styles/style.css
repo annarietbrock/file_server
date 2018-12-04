@@ -1,0 +1,70 @@
+
+h1 {
+  color: #f442d9;
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+
+div {
+  font-family: arial, sans-serif;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: #ffff99;
+  text-align: center;
+  list-style-position: inside;
+
+}
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display:block;
+}
+
+#nameFeedbackGood{
+  background-color: #ffffff;
+  color: #ff99cc;
+}
+
+#nameFeedbackBad, #choiceFeedbackBad{
+  background-color: #ffffff;
+  color: #ff0000;
+}
+#game_results{
+  background-color: #ffffff;
+}
+
+#Computer_Picture_Results{
+  margin-top: 10px;
+  margin-left:150;
+  margin-right: 140px;
+}
+
+#Player_Picture_Results{
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-right: 0px;
+
+}
+#resultsText{
+  text-align: center;
+}
+
+#statsTable{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 12px;
+  }

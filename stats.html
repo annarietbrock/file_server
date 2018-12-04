@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>P,R,S - Client</title>
+  <link rel="stylesheet" href="styles/style.css">
+ </head>
+
+<body>
+  <header>
+  <h1><a href="/">P, R, S</a></h1>
+  <a href ="/rules">View Rules</a>
+  <a href ="/stats">View Stats</a>
+</header>
+
+  <div id="stats">
+    <h2>Stats</h2>
+
+
+  <table id="statsTable">
+    <tr>
+      <th>Statistics</th>
+      <th><p id = "players_name1"><span class = "player_name_span">Player's Name</span></p></th>
+      <th><p id = "browser_name"> </p></th>
+    </tr>
+    <tr>
+      <td>Total Games Played</td>
+      <td><p id="totalGamesPlayedP"></p></td>
+      <td><p id="totalGamesPlayedC"></p></td>
+    </tr>
+    <tr>
+      <td>Total Wins</td>
+      <td><p id = "playerStats"></p></td>
+      <td><p id = "computerStats"></p></td>
+    </tr>
+    <tr>
+      <td>Win:Loss Ratio </td>
+      <td><p id = "playerRatio"></p></td>
+      <td><p id = "computerRatio"></p></td>
+    </tr>
+    <tr>
+      <td>Rock Statistics</td>
+      <td><p id = "prStat"></p></td>
+      <td><p id = "crStat"></p></td>
+    </tr>
+    <tr>
+      <td>Paper Statistics</td>
+      <td><p id = "ppStat"></p></td>
+      <td><p id = "cpStat"></p></td>
+    </tr>
+    <tr>
+      <td>Scissors Statistics</td>
+      <td><p id = "psStat"></p></td>
+      <td><p id = "csStat"></p></td>
+    </tr>
+  </table>
+  </div>
+
+  <footer>
+    Created by Anna Rietbrock - Fall, 2018.
+  </footer>
+  <script src="scripts/StatsScripts.js"></script>
+ </body>
+</html>

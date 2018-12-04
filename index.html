@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>P,R,S - Client</title>
+  <link rel="stylesheet" href="styles/style.css">
+ </head>
+
+<body>
+  <header>
+    <h1>P, R, S</h1>
+    <center>
+    <img id = "FrontPhoto" src="images/FrontPhoto.png" alt="Header Photo" height= "200" width="200">
+    </center>
+    <a href ="/rules">View Rules</a>
+    <a href ="/stats">View Stats</a>
+</header>
+
+  <div id="feedback" class = "hidden">
+    <h4 id = "nameFeedbackGood"></h4>
+    <h4 id = "nameFeedbackBad"></h4>
+    <h4 id = "choiceFeedbackBad"></h4>
+  </div>
+
+  <div id="enter_name" class = "visible">
+    <h2>Enter your Name:</h2>
+    <input type = "text" id="enter_name_input">
+    <button id = "enter_name_button">Submit Name</button>
+  </div>
+
+  <div id="throw_choice" class="hidden">
+    <h2>Let's Play!</h2>
+    <h4><span class="player_name_span"></span>, it's your turn to bust a move!</h4>
+    Enter your choice of weapon:
+    <select id = "Player_Throw_Choice">
+      <option value=" "> </option>
+      <option value="Paper">Paper</option>
+      <option value="Rock">Rock</option>
+      <option value="Scissors">Scissors</option>
+    </select>
+    <button id = "pick_choice">Play</button>
+
+  </div>
+  <div id="game_results" class="hidden">
+    <h2>Game Results</h2>
+    <img id = "Player_Picture_Results" src="" alt="Picture of Player Throw Choice" height= "300" width="300">
+    <img id = "Computer_Picture_Results" src="" alt="Picture of Computer Throw Choice" height= "300" width="300">
+    <p id = "playerSummary">""</p>
+    <p id = "computerSummary">""</p>
+    <h2 id="resultsText">""</h2>
+
+    <button id = "play_Again">Play Again</button>
+  </div>
+
+  <footer>
+    Created by Anna Rietbrock - Fall, 2018.
+  </footer>
+
+  <script src="scripts/IndexScripts.js"></script>
+ </body>
+</html>
